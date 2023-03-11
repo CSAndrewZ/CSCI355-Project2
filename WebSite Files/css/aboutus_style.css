@@ -1,0 +1,59 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navigation-bar4{
+  background-color: #DB2B39;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  height: 90px;
+}
+
+.businessLogo4{
+  height: 90px;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 10px;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 10px;
+  font-size: 150%;
+}
+
+.footer4{
+  background-color: #1E96FC;
+}
+
+.footer4 p{
+  color: #fff;
+  text-align: center;
+}
+
+#topFooter4{
+  padding-top: 10px;
+}
+
+#middleFooter4{
+  font-style: italic;
+  font-weight: bold;
+}
+
+#bottomFooter4{
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+a:hover{
+  background-color: black;
+}
