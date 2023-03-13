@@ -57,3 +57,38 @@ nav ul li a {
 a:hover{
   background-color: black;
 }
+
+.showcase{
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  justify-items: center;
+  width: 100%;
+  height: 120%;
+}
+
+#slogan{
+  grid-column: 1 / -1;
+  color: black;
+  text-align: center;
+}
+
+.showcaseItems{
+  background-color: black;
+  border: 3px black solid;
+}
+
+.display{
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showcaseWriting{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
