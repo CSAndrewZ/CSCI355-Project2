@@ -59,8 +59,8 @@ a:hover{
 }
 
 .showcase{
+  background-color: #3D3E51;
   display: grid;
-  
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   justify-items: center;
@@ -70,7 +70,7 @@ a:hover{
 
 #slogan{
   grid-column: 1 / -1;
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -91,4 +91,36 @@ a:hover{
   text-align: center;
   color: white;
   font-weight: bold;
+}
+
+.udemyIdea1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.facts{
+  color: #fff;
+  size: 150%;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.counter-container{
+  background-color: #DB2B39;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 50px;
+}
+
+
+.counter{
+  color: #fff;
+  font-size: 60px;
+  margin-top: 10px;
+  text-align: center;
 }
