@@ -59,7 +59,7 @@ a:hover{
 }
 
 .showcase{
-  background-color: #3D3E51;
+  background-color: black;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
@@ -72,10 +72,11 @@ a:hover{
   grid-column: 1 / -1;
   color: white;
   text-align: center;
+  text-decoration: underline;
 }
 
 .showcaseItems{
-  background-color: black;
+  background-color: white;
   border: 3px black solid;
 }
 
@@ -89,7 +90,7 @@ a:hover{
 
 .showcaseWriting{
   text-align: center;
-  color: white;
+  color: black;
   font-weight: bold;
 }
 
@@ -124,3 +125,31 @@ a:hover{
   margin-top: 10px;
   text-align: center;
 }
+
+#dealsdiscounts{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.dealContainers{
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  gap: 1rem 1rem;
+  
+
+}
+.dealCards{
+  background-color: #DB2B39;
+  border: solid black 2px;
+}
+.imageDeals{
+  width: 300px;
+  height: 300px;
+}
+
+.dealw{
+  color: white;
+  text-align: center;
+}
+
