@@ -15,7 +15,7 @@
       
       <link rel="stylesheet" href="css/home_style.css">
    
-   
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
    </head>
 
    <body>
@@ -98,38 +98,67 @@
       
       </div> 
       
-      <h2 id="dealsdiscounts">Deals and Discounts</h2>
+      <h2 style="text-align: center; text-decoration: underline;">Deals and Discounts</h2>
       
-      <div class="dealContainers">
+      <section class="main">
+         
+         <div class="wrapper">
+            
+            <div class="slide">
+               
+               <img src="images/imageSlider1.png" alt="BasketBall Image 1" class="pictures">
 
-            <div class="dealCards">
-               
-               <img class="imageDeals" src="images/imageSlider1.png" alt="Men's Clothes" loading="lazy">
-               
-               <p class="dealw">Deal and Discount 1</p>
-               
+               <div class="image-data">
+                  <span id="dd1"> Buy 1 Get 2 Free All Items</span>
+                  <h4 id="ddi1">Weekdays</h4>
+                  <a href="mens.html" class="button">Shop Men's</a>
+               </div>   
+            
             </div>
+         
+            <div class="slide">
+               
+               <img src="images/imageSlider3.png" alt="BasketBall Image 3" class="pictures">
 
-            <div class="dealCards">
-               
-               <img class="imageDeals" src="images/imageSlider3.png" alt="Women's Clothing" loading="lazy">
-               
-               <p class="dealw">Deal and Discount 2</p>
-               
+               <div class="image-data">
+                  <span id="dd2">15% Off At Checkout</span>
+                  <h4 id="ddi2">Weekends</h4>
+                  <a href="womens.html" class="button">Shop Women's</a>
+               </div>   
+            
             </div>
+            
+         </div>
+         
+      </section>
       
-            <div class="dealCards">
-               
-               <img class="imageDeals" src="images/ImageSlider2.png" alt="Weekend Sale" loading="lazy">
-               
-               <p class="dealw">Deal and Discount 3</p>
-               
-            </div>
-      
-      </div>
       
       <h2 style="text-align: center; text-decoration: underline;">Hear From the Legends of the Game</h2>
       
+      <div class="legends-speak">
+
+         <div class="legend-photos">
+            <img src="images/legend1.jpg" alt="legend1">
+            <img  src="images/legend2.png" alt="legend2">
+            <img  src="images/legend3.jpg" alt="legend3">
+         </div>
+         
+         <div onclick="side_slide(-1)" class="slide left">
+            <span class="fas fa-angle-left"> &lt;</span>
+         </div>
+         
+         <div onclick="side_slide(1)" class="slide right">
+            <span class="fas fa-angle-right"> &gt;</span>
+         </div>
+         
+         <div class="btn-sliders">
+            <span onclick="btm_slide(1)"></span>
+            <span onclick="btm_slide(2)"></span>
+            <span onclick="btm_slide(3)"></span>
+         </div>
+      
+      
+      </div>
       
       <script src="javascript/home_script.js"></script>
       
