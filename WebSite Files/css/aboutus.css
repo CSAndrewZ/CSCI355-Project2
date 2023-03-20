@@ -1,0 +1,376 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navigation-bar4{
+  background-color: #DB2B39;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  height: 90px;
+}
+
+.businessLogo4{
+  height: 90px;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 10px;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 10px;
+  font-size: 150%;
+}
+
+.footer4{
+  background-color: #1E96FC;
+}
+
+.footer4 p{
+  color: #fff;
+  text-align: center;
+}
+
+#topFooter4{
+  padding-top: 10px;
+}
+
+#middleFooter4{
+  font-style: italic;
+  font-weight: bold;
+}
+
+#bottomFooter4{
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+a:hover{
+  background-color: black;
+}
+  @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+  
+  h1 {
+    background-color: rgb(215, 0, 64);
+    color: white;
+    text-align: center;
+  }
+  
+  #footer3{
+    background-color: rgb(215, 0, 64);
+    color: white;
+    text-align: center;
+    height: 5em;
+  }
+  
+  #firstFooter3 {
+    padding-top: 1em;
+  }
+  
+  
+  #container4{
+    background-color: rgb(215, 0, 64);
+    display: flex;
+    height: 7em;
+  }
+  
+  
+  #logo4{
+    flex:1;
+  }
+  
+  #navigation-bar4{
+    flex:2;
+  }
+  
+  #navigation-bar4 nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em 1em;
+  }
+  
+  #navigation-bar4 nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 150%;
+  }
+  
+  #navigation-bar4 nav ul li a:hover{
+    background: black;
+  }
+  
+  #logo4 img{
+    width: 50%;
+    height: 100%;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+
+  
+  h2 {
+    margin: 50px 0 30px;
+    color: white;
+    background-color: rgb(215, 0, 64);
+    text-align: center;
+  }
+  
+  .faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .faq {
+    background-color: transparent;
+    border: 1px solid #9fa4a8;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease;
+  }
+  
+  .faq.active {
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq.active::before,
+  .faq.active::after {
+    content: '\f075';
+    font-family: 'Font Awesome 5 Free';
+    color: blue;
+    background-color: transparent;
+    font-size: 7rem;
+    position: absolute;
+    opacity: 0.2;
+    top: 20px;
+    left: 20px;
+    z-index: 0;
+  }
+  
+  .faq.active::before {
+    color: red;
+    background-color: transparent;
+    top: -10px;
+    left: -30px;
+    transform: rotateY(180deg);
+  }
+  
+  .faq-title {
+    margin: 0 35px 0 0;
+  }
+  
+  .faq-text {
+    display: none;
+    margin: 30px 0 0;
+  }
+  
+  .faq.active .faq-text {
+    display: block;
+  }
+  
+  .faq-toggle {
+    background-color: transparent;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 30px;
+    width: 30px;
+  }
+  
+  .faq-toggle:focus {
+    outline: 0;
+  }
+  
+  .faq-toggle .fa-times {
+    display: none;
+  }
+  
+  .faq.active .faq-toggle .fa-times {
+    color: #fff;
+    display: block;
+  }
+  
+  .faq.active .faq-toggle .fa-chevron-down {
+    display: none;
+  }
+  
+  .faq.active .faq-toggle {
+    background-color: #9fa4a8;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  h4{
+    background-color: #1E96FC;
+    color: white;
+    text-align: center;
+  }
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 10px;
+}
+
+.companyInfo{
+  background-color: #1E96FC;
+}
+
+.companyInfo p, .companyInfo h3{
+  color: white;
+  text-align: center;
+}
+
+.gititle{
+  text-align: center;
+  color: white;
+  background-color: #1E96FC;
+}
+
+.flex-founders{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#founders-pic{
+  width: 300px;
+  height: 300px;
+}
+
+#founderInfo{
+  background-color: #1E96FC;
+  color: white;
+  text-align: center;
+}
+
+#founderScope{
+  width: 200%;
+}
+
+  #logo3 img{
+    width: 50%;
+    height: 100%;
+  }
+  
+  #table table{
+    border-collapse: collapse;
+    font-size: 1.1em;
+    margin: 1em 0;
+    min-width: 20em;
+  }
+  
+  #table table tr th{
+    background-color:white;
+    text-align: left;
+    color: black;
+  }
+  
+  #table table tr td{
+    background-color: white;
+  }
+  
+  #table table caption{
+    background-color: #F71735;
+    color: white;
+  }
+  .btn-submit{
+    background-color: #F71735;
+    color: white;
+  }
+  .btn-cancel{
+    background-color: #F71735;
+    color: white;
+  }
+  .input{
+    width: 80%;
+    height: 30%;
+  }
+  .basketball {
+    position: relative;
+    top: 100px;
+    right: -2px;
+  }
+  .ball {
+    position: relative;
+    background-color: #e76f51;
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    overflow: hidden;
+    border: 3px solid #333;
+    animation: bounceball 2s ease-in infinite;
+  }
+  .ball:before, .ball:after {
+    content:"";
+    position: absolute;
+    background-color: #333;
+    width:110px;
+    height:3px;
+    top:50px;
+    left:-5px;
+  }
+  
+  .ball:before {
+    transform: rotate(45deg);
+  }
+  
+  .ball:after {
+    transform: rotate(-45deg);
+  }
+  
+  .lines {
+    position: absolute;
+    border-radius:50%;
+    border: 3px solid #333;
+    width:70px;
+    height:70px;
+    left:-20px;
+    top:-20px;
+  }
+  
+  .lines:before {
+    content:"";
+    position: absolute; 
+    border-radius:50%;
+    border: 3px solid #333;
+    width:70px;
+    height:70px;
+    top:65px;
+    left:60px;
+  }
+  @keyframes bounceball {
+    0% {transform: translate3d(0, 0, 0) rotate(0deg);}
+   25% {transform: translate3d(0, -185px, 0) rotate(90deg);}
+   50% {transform: translate3d(0, 0, 0) rotate(180deg);}
+   75% {transform: translate3d(0, -185px, 0) rotate(270deg);}
+   100% {transform: translate3d(0, 0, 0) rotate(360deg);}
+ }
+ 

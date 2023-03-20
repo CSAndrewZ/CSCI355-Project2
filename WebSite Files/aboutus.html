@@ -13,12 +13,12 @@
    
       <link rel="icon" href="images/basketballicon.png" type="image/x-icon">
    
-      <link rel="stylesheet" href="css/aboutus_style.css">
+      <link rel="stylesheet" href="css/aboutus.css">
    
    </head>
 
    <body>
-      
+ 
       <div id="navigation-bar4">
 
          <div class="businessLogo4">
@@ -30,7 +30,7 @@
             
             <ul>
 
-               <li> <a href="home.html"> Home </a> </li>
+               <li> <a href="home.html" class="active"> Home </a> </li>
                <li> <a href="mens.html"> Mens </a> </li>
                <li> <a href="womens.html"> Womens </a> </li>
                <li> <a href="aboutus.html"> About Us </a></li>
@@ -38,9 +38,259 @@
             </ul>
          
          </nav>   
+         <div class="heror">
+
+         </div>
       
       </div>
+      <div class="location">
+        <hr>
+        <table class="table" width="100%">
+            <tr>
+                <td  width="50%">
+                    <div class="map" style="width: 100%;height: 500px;" id="map" >
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.100465510389!2d-73.8383819069626!3d40.75981501341064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600eed6f0b41%3A0x30c1da3c6c6dd11b!2s133-27%2039th%20Ave%2C%20Queens%2C%20NY%2011354!5e0!3m2!1sen!2sus!4v1679221208448!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </td>
+                <td width="50%">
+                              
+            <form name="Contact Form" id="form" onsubmit="alert('Thank you, we will contact you as soon as possible')">
+                <table class="table" width="100%">
+                <tr>
+                    <td><label>Name:</label></td>
+                    <td><input class="input" required type="text" name="name" id="name"></td>
+                </tr>
+                    
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input class="input" required type="text" name="email" id="email"></td>
+                </tr>
+                    
+                <tr>
+                    <td><label>Message:</label></td>
+                    <td><textarea class="input"  name="message" ></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button class="btn-submit" type="submit">Send Message</button>
+                        <button class="btn-cancel" href="contactus.html">Cancel</button></td>
+                </tr>
+                </table>
+            </form>
+
+                  <h2>Address:</h2>
+                  <b>CMZ BasketBall Apparel</b><br>
+                  133-27 39th Ave,<br>
+                  Flushing,<br>
+                  Queens NY 11354.
+                  <hr>
+                  <h2>Contact Info:</h2>
+                  <b>Email:</b>cmz@apparel.com<br>
+                  <b>Number:</b> 718-354-4321
+                  <div id = table> 
+                  
+              </td>
+            </tr>
+
+        </table>
+  <div id=table>
+      <table>
+          <caption> Store Hours </caption>
+              <tr>
+                  <th> Day </th>
+                  <th> Time</th>
+              </tr>
+                      
+              <tr>
+                  <td>Sunday</td>
+                  <td>10:00am - 5:00pm</td>
+               </tr>
+                           
+              <tr>
+                  <td>Monday</td>
+                   <td>9:00am - 8:00pm</td>   
+              </tr>
+                      
+              <tr>
+                  <td>Tuesday</td>
+                  <td>9:00am - 8:00pm</td>
+              </tr>
+                      
+              <tr>
+                  <td>Wednesday</td>
+                  <td>9:00am - 8:00pm</td>
+              </tr>
+                      
+              <tr>
+                  <td>Thursday</td>
+                  <td>10:30am - 8:30pm</td>
+                         </tr>
+                      
+              <tr>
+                  <td>Friday</td>
+                  <td>10:00am - 9:00pm</td>
+              </tr>
+                      
+              <tr>
+                  <td>Saturday</td>
+                  <td>10:30am - 9:00pm</td>
+              </tr>
+                      
+      </table>
+  </div>
    
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-container">
+    <div class="faq active">
+      <h3 class="faq-title">
+        How can I purchase these products?
+      </h3>
+
+      <p class="faq-text">
+        There are multiple ways to purchase from CMZ BasketBall Apparel.
+      </p>
+      <ul class="faq-text">
+        <li>You can make a purchase our Website by selecting the product and put into the shopping cart and checking out.  </li>
+        <li>You can place an order and ask questions through a contact number:718-354-4321.</li>
+        <li>You can walkin to our store location and look at gallary of apparel to make a purchase.</li>
+    </ul>
+
+
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="faq">
+      <h3 class="faq-title">
+        What kind of payments do you accept?
+      </h3>
+      <p class="faq-text">
+        We accept all types of payments. This includes through credit/debit card, Apple Pay, or cash for store walkin
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="faq">
+      <h3 class="faq-title">
+        What types of clothes or brand is available?
+      </h3>
+      <p class="faq-text">
+        Yes we plan on opening more locations in the near future for everyone to experience our fresh pizza! 
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+  </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        Can I order online without an account?
+      </h3>
+      <p class="faq-text">
+        Yes, we allow guest checkout on all orders. We do recommend creating an account to save all of your order info, notification for most recent released apparels, and exclusive deals, for quicker checkout.
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <div class="faq">
+      <h3 class="faq-title">
+        What shoe and clothing size will fit me?
+      </h3>
+      <p class="faq-text">
+        Each apparel and shoes will have a designated size attached to them for customer to look at. <br>
+        For our full listing of our sizing charts. Click here for <a href="https://www.myfrugalhome.com/printables/shoe-size-conversion-chart.pdf">shoes</a> or <a href="https://shop.alz.org/App_Themes/ALZ_Public_Responsive/docs/SizeChart.pdf">apparel</a>. <br>
+        For further more details, you can contact us through our number, email or ask us directly.
+        
+      </p>
+      <button class="faq-toggle">
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="faq">
+      <h3 class="faq-title">
+        How do I return a item?
+      </h3>
+      <p class="faq-text">
+          Any Items purchased at our store can be returned within 30 days <br>
+          Returned items may be used to exchanged when returned in store <br>
+          </p>
+      <button class="faq-toggle">
+    
+      </button>
+    </div>
+    <div class="faq">
+      <h3 class="faq-title">
+        How do I change or cancel an order?
+      </h3>
+      <p class="faq-text">
+        If you need to cancel or change your order, contact us through our contact number as soon as possible. We'll do everything we can to accommodate your request. </p>
+      <button class="faq-toggle">
+    
+      </button>
+    </div>
+    <div class="faq">
+        <h3 class="faq-title">
+          How do I track the status of my order and order shipment
+        </h3>
+        <p class="faq-text">
+            Once a online purchase is made, we will send you confirmation email of your receipt and shortly after, we send you a email of the order shipment. <br>
+          You can view the progress of the shipment including the estimated schedule/update and carrier tracking number regarding the purchase.   </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+    </div>
+  
+  </div>
+  <div class="basketball">
+    <div class="ball">
+    <div class="lines"></div>
+  </div>
+
+  <h3 class="gititle">General Information</h3>
+ 
+  <div class="grid-container">
+
+    <div class="companyInfo"> 
+      <h3> Business Ethos </h3>
+    </div>
+
+    <div class="companyInfo"> 
+      <p> Our store is to sell BasketBall related apparel through delivery or store pickup with the best of our ability.<br>
+             </p>
+    </div>
+  
+    <div class="companyInfo"> 
+      <h3> Target Audience </h3>
+    </div>
+
+    <div class="companyInfo"> 
+      <p> Our main audience for young adults and anyone who's passionate or enjoy basketball apparel.   </p>
+    </div>
+  
+    <div class="companyInfo"> 
+      <h3> Key Motivation </h3>
+    </div>
+
+    <div class="companyInfo"> 
+      <p> 
+        To provide variety and affordable apprael compared to other apparel stores.
+      </p>
+    </div>
+  
+  </div>
+  
+  
+  
+  <hr>
    
       <div class="footer4">
          
