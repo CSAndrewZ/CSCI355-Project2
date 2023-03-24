@@ -57,3 +57,113 @@ nav ul li a {
 a:hover{
   background-color: black;
 }
+
+
+/* Showing mcd*/
+
+.mcd{
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 5px;
+}
+
+.mend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team::first-letter{
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.team{
+  color: black;
+  text-align: center;
+}
+
+.mi{
+   height: 100%;
+   width: 100%;
+}
+
+/* Clothing Display */
+
+.menClothing{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr;
+   grid-gap: 10px;
+}
+
+.category{
+   text-decoration: underline;
+   grid-column: 1/-1;
+   text-align: center;
+   
+}
+
+.clothingContainer{
+   border: 2px solid black;
+}
+
+.mdisplay{
+   width: 250px;
+   height: 250px;
+}
+
+.cwriting{
+   text-align: center;
+   font-weight: bold;
+}
+
+/* Top of Page: Udemy idea */
+
+.udi3{
+  background: radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 410px;
+  height: 300px;
+  margin: 10px;
+  border: 2px solid white;
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even){
+  transform: translateX(-400%);
+}
+
+.box.show{
+  transform: translateX(0);
+}
+
+.inspire{
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+}
+
+.inspireAuthor{
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  
+}
+

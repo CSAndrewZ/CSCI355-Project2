@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 .footer{
-  background-color: black;
+  background-color: #1E96FC;
 }
 
 .footer p{
@@ -106,6 +106,7 @@ a:hover{
   color: black;
   size: 185%;
   text-align: center;
+  font-weight: bold;
   padding-bottom: 5px;
 }
 
@@ -119,7 +120,7 @@ a:hover{
 
 
 .counter{
-  color: black;
+  color: #b20a2c;
   font-size: 60px;
   margin-top: 10px;
   font-weight: bold;
