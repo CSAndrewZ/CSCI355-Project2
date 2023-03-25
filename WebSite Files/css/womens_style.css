@@ -57,3 +57,109 @@ nav ul li a {
 a:hover{
   background-color: black;
 }
+
+/* Women's Clothing Display */
+
+.womens-clothing{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr;
+  grid-gap: 10px;
+}
+
+.clothing-type{
+  text-decoration: underline;
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.womens-item{
+  border: 2px solid black;
+}
+
+.womens-images{
+  width: 60%;
+  height: 50%;
+}
+
+.womens-write{
+  text-align: center;
+  font-style: italic;
+}
+
+.womens-price{
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Udemy idea */
+
+
+/* CSS Animation */
+
+.animation{
+  width: 100px;
+  height: 100px;
+}
+
+.hooper{
+  position: relative;
+  left: 0%;
+  top: 150px;
+}
+
+.hoop{
+  position: relative;
+  left: 90%;
+  bottom: 75px;
+}
+
+.space{
+  width: 100%;
+  height: 300px;
+  background-color: #DB2B39;
+}
+
+.stand{
+  position: relative;
+  left: 92%;
+  bottom: 80px;
+  background-color: black;
+  width: 20px;
+  height: 100px;
+}
+
+.animate{
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  position: relative;
+  border-radius: 50px;
+  animation-name: moving;
+  animation-duration: 4s;
+  animation-iteration-count: 6;
+}
+
+
+@keyframes moving {
+  0%   { 
+    left:0px; 
+    top:200px;
+  }
+  25%  { 
+    left:0px; 
+    top:0px;
+  }
+  50%  { 
+    left:90%; 
+    top:0px;
+  }
+  75%  { 
+    left:90%; 
+    top:200px;
+  }
+  100% { 
+    left:0px; 
+    top:200px;
+  }
+}
