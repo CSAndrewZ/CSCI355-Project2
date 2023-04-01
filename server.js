@@ -19,4 +19,4 @@ app.get('/women', (req, res) => {
 });
 
 // Port 5555 is where we will test our node app on localhost
-app.listen(5555, () => console.log('Ready to listen on port 5555'));
+app.listen(5555, () => console.log('Ready on port 5555'));
