@@ -1,0 +1,15 @@
+{
+  "name": "csci355-project2",
+  "version": "1.0.0",
+  "description": "CUNY Queens College CSCI 355: Internet and Web Technologies Professor Fried",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
